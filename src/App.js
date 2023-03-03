@@ -4,12 +4,13 @@ import Header from "./components/Header";
 // import Portfolio from "./components/Portfolio";
 // import ContactMe from "./components/ContactMe";
 // import Projects from "./Projects";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
       <Header />
+      <Footer />
     </div>
   );
 }
