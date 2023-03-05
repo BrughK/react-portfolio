@@ -11,12 +11,13 @@ import Currency from "./assets/127.0.0.1_5500_index.html (1).png";
 import Search from "./assets/search.png";
 // import AboutMe from "./components/AboutMe";
 // import Portfolio from "./components/Portfolio";
-// import ContactMe from "./components/ContactMe";
+import ContactMe from "./components/ContactMe";
 
 function App() {
   return (
     <div className="bg-secondary" style={{ minHeight: "100vh" }}>
       <Header />
+      <ContactMe />
       <CardGroup className="mt-5 d-flex justify-content-center ">
         <Row className="justify-content-center">
           <Col sm={12} md={4}>
@@ -30,11 +31,11 @@ function App() {
           </Col>
           <Col sm={12} md={4}>
             <Project
-              title="CFB Roster Builder"
-              image={Search}
-              description="The CFB Roster Builder is a full stack application that allows users to stay up to date with their favorite players. Through technologies such as SQL and HandleBars.JS this application uses cutting edge tech."
-              deployedLink="https://cfb-roster-builder.herokuapp.com/"
-              githubLink="https://github.com/BrughK/CFB-Roster-Builder"
+              title="Professional README Generator"
+              image={READPic}
+              description="A command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package."
+              deployedLink="https://drive.google.com/file/d/1RY82-dnpIAcmPad5C7kD6I_1W4N5nc4b/view"
+              githubLink="https://github.com/BrughK/Pro-README-Generator"
             />
           </Col>
           <Col sm={12} md={4}>
@@ -68,11 +69,11 @@ function App() {
           </Col>
           <Col sm={12} md={4}>
             <Project
-              title="Professional README Generator"
-              image={READPic}
-              description="A command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package."
-              deployedLink="https://drive.google.com/file/d/1RY82-dnpIAcmPad5C7kD6I_1W4N5nc4b/view"
-              githubLink="https://github.com/BrughK/Pro-README-Generator"
+              title="CFB Roster Builder"
+              image={Search}
+              description="The CFB Roster Builder is a full stack application that allows users to stay up to date with their favorite players. Through technologies such as SQL and HandleBars.JS this application uses cutting edge tech."
+              deployedLink="https://cfb-roster-builder.herokuapp.com/"
+              githubLink="https://github.com/BrughK/CFB-Roster-Builder"
             />
           </Col>
         </Row>
