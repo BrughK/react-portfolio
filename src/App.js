@@ -9,7 +9,7 @@ import ORMGif from "../src/assets/13-orm-homework-demo-01.gif";
 import READPic from "../src/assets/readme pic.png";
 import Currency from "./assets/127.0.0.1_5500_index.html (1).png";
 import Search from "./assets/search.png";
-// import AboutMe from "./components/AboutMe";
+import AboutMe from "./components/AboutMe";
 // import Portfolio from "./components/Portfolio";
 import ContactMe from "./components/ContactMe";
 
@@ -17,6 +17,7 @@ function App() {
   return (
     <div className="bg-secondary" style={{ minHeight: "100vh" }}>
       <Header />
+      <AboutMe />
       <ContactMe />
       <CardGroup className="mt-5 d-flex justify-content-center ">
         <Row className="justify-content-center">
