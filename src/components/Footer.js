@@ -4,7 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 export default function Footer() {
   return (
-    <footer className="fixed-bottom">
+    <footer className="">
       <Navbar bg="dark" variant="dark">
         <Container fluid>
           <Stack align="middle">
