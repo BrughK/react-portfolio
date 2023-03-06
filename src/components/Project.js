@@ -10,10 +10,20 @@ const Project = (props) => {
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>{description}</Card.Text>
-        <Button variant="success" href={deployedLink} target="_blank">
+        <Button
+          variant="success"
+          href={deployedLink}
+          rel="noreferrer"
+          target="_blank"
+        >
           Deployed Link
         </Button>{" "}
-        <Button variant="dark" href={githubLink} target="_blank">
+        <Button
+          variant="dark"
+          href={githubLink}
+          rel="noreferrer"
+          target="_blank"
+        >
           GitHub Link
         </Button>
       </Card.Body>

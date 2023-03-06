@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Resume from "../assets/Kasen Brugh SWE Resume.pdf";
 
 function NavBar() {
   return (
@@ -16,7 +17,16 @@ function NavBar() {
                 <Nav.Link href="#about-me">About Me</Nav.Link>
                 <Nav.Link href="#portfolio">Portfolio</Nav.Link>
                 <Nav.Link href="#contact">Contact Me</Nav.Link>
-                <Nav.Link href="#resume">Resume</Nav.Link>
+                <Nav.Link href="#resume">
+                  <a
+                    href={Resume}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-decoration-none"
+                  >
+                    Resume
+                  </a>
+                </Nav.Link>
               </Nav>
             </Navbar.Text>
           </Navbar.Collapse>
