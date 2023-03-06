@@ -10,15 +10,15 @@ import READPic from "../src/assets/readme pic.png";
 import Currency from "./assets/127.0.0.1_5500_index.html (1).png";
 import Search from "./assets/search.png";
 import AboutMe from "./components/AboutMe";
-// import Portfolio from "./components/Portfolio";
 import ContactMe from "./components/ContactMe";
+import React from "react";
 
 function App() {
   return (
     <div className="bg-secondary" style={{ minHeight: "100vh" }}>
       <Header />
-      <AboutMe />
-      <ContactMe />
+      <AboutMe id="about-me" />
+      <ContactMe id="contact" />
       <CardGroup className="mt-5 d-flex justify-content-center ">
         <Row className="justify-content-center">
           <Col sm={12} md={4}>
