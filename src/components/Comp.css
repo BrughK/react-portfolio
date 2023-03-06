@@ -1,4 +1,4 @@
-/* .hover-class:hover {
+.hover-class:hover {
     font-size: 23px;
     transition: ease .5s;
     opacity: 50%;
@@ -7,5 +7,5 @@
 .hover-class {
     transition: ease .5s;
     font-size:  20px;
-} */
+}
 

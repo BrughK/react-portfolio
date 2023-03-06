@@ -3,8 +3,8 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Resume from "../assets/Kasen Brugh SWE Resume.pdf";
-
 import "./Comp.css";
+import { Link } from "react-scroll";
 
 function NavBar() {
   return (
@@ -22,9 +22,34 @@ function NavBar() {
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
             <Nav className="me-auto">
-              <Nav.Link className="hover-class">About Me</Nav.Link>
-              <Nav.Link className="hover-class">Portfolio</Nav.Link>
-              <Nav.Link className="hover-class">Contact Me</Nav.Link>
+              {/* React Scroll NPM */}
+              <Link
+                to="about-section"
+                className="nav-link hover-class"
+                smooth={true}
+                offset={-70}
+                duration={200}
+              >
+                About Me
+              </Link>
+              <Link
+                to="portfolio-section"
+                className="nav-link hover-class"
+                smooth={true}
+                offset={-70}
+                duration={200}
+              >
+                Portfolio
+              </Link>
+              <Link
+                to="contact-section"
+                className="nav-link hover-class"
+                smooth={true}
+                offset={-70}
+                duration={200}
+              >
+                Contact Me
+              </Link>
               <Nav.Link href={Resume} target="_blank" className="hover-class">
                 Resume
               </Nav.Link>
