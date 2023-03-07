@@ -8,7 +8,9 @@ const Project = (props) => {
     <Card className="mt-3 mb-5 mx-3 p-1">
       <Card.Img variant="top" src={image} />
       <Card.Body>
-        <Card.Title>{title}</Card.Title>
+        <Card.Title>
+          <p className="h2">{title}</p>
+        </Card.Title>
         <Card.Text>{description}</Card.Text>
         <Button
           variant="success"
