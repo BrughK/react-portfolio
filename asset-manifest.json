@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.df1f2dff.css",
+    "main.js": "/react-portfolio/static/js/main.19ccc9aa.js",
+    "static/media/19-pwa-homework-demo-01.gif": "/react-portfolio/static/media/19-pwa-homework-demo-01.b42d095e85f9652e6d7d.gif",
+    "static/media/13-orm-homework-demo-01.gif": "/react-portfolio/static/media/13-orm-homework-demo-01.437ce5630d2ff14a82f1.gif",
+    "static/media/profile.png": "/react-portfolio/static/media/profile.ca55a03a9819ef7e93b8.png",
+    "static/media/127.0.0.1_5500_index.html (1).png": "/react-portfolio/static/media/127.0.0.1_5500_index.html (1).e6f0665107d3075eeb0b.png",
+    "static/media/18-nosql-homework-demo-02.gif": "/react-portfolio/static/media/18-nosql-homework-demo-02.edf547e988d37628afc5.gif",
+    "static/media/readme pic.png": "/react-portfolio/static/media/readme pic.03d32696e9df32736653.png",
+    "static/media/Kasen Brugh SWE Resume.pdf": "/react-portfolio/static/media/Kasen Brugh SWE Resume.5898540a62e3c31a3ab0.pdf",
+    "static/media/search.png": "/react-portfolio/static/media/search.af5c4a6f150a7ecdfd0f.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.df1f2dff.css.map": "/react-portfolio/static/css/main.df1f2dff.css.map",
+    "main.19ccc9aa.js.map": "/react-portfolio/static/js/main.19ccc9aa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df1f2dff.css",
+    "static/js/main.19ccc9aa.js"
+  ]
+}
