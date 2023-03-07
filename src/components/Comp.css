@@ -1,11 +1,11 @@
 .hover-class:hover {
-    font-size: 23px;
+    font-size: 27px;
     transition: ease .5s;
     opacity: 50%;
 }
 
 .hover-class {
     transition: ease .5s;
-    font-size:  20px;
+    font-size:  25px;
 }
 
